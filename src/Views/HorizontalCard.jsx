@@ -26,7 +26,7 @@ export class HorizontalCard extends React.Component {
                     <div class="row flex-nowrap">
 
                         {movies.map((name) => {
-
+                          
                             return <MovieCard moviename={name.name} />;
                         })}
 

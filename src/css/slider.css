@@ -30,3 +30,7 @@
 .carousel-item active{
     position: absolute;
 }
+.myCarousel{
+  width: 100%;
+  height:auto;
+}
