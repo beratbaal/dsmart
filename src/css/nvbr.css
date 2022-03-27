@@ -45,7 +45,7 @@
     font-size: medium;
     font-weight: 500;
     color: black;
-    margin-left: 20px;
+    margin-left: 1000%;
     
 }
 .btnUyeGirisi{
@@ -56,7 +56,7 @@
     background-color: transparent;
     border: none;
     color: white;
-    margin-left: 20px;
+    margin-left: 1000%;
 
 }
 .navbarcustom{
@@ -113,6 +113,13 @@ li:first-child a{
         margin-left: 15%;
         margin-top: -8px;
     }
+}
+.menucustom{
+    background-color: #212121;
+    margin: 0 !important;
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
 }
 
 

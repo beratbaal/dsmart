@@ -1,0 +1,24 @@
+
+.btnUyeOl{
+    width: 84.68px;
+    height: 30.85px;
+    border-radius: 200px;
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    margin-left: 980%;
+
+    
+    
+}
+.btnUyeGirisi{
+    width: 84.68px;
+    height: 30.85px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 1000%;
+    position: absolute;
+}

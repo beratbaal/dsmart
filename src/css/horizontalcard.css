@@ -1,5 +1,6 @@
 .card-block {
-    min-height: 300px;
+    min-height: 400px;
+ 
 }
 .customHorizontalCard{
     overflow-x: scroll;

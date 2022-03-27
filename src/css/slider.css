@@ -1,3 +1,32 @@
-.carousel{
-
+.btnCustom{
+    color: #000;
+    border-radius: 20px !important;
+    background-color: #fff;
+    font-size: 22px !important;
+    transition: all .5s;
+    width: max-content;
+    border: solid 1px #fff;
+    margin: -10% 5% 20% -100%;
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-image: url("https://assets.dsmartgo.com.tr/content/img/icn-play.png");
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 30px;
+    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif!important;
+}
+.moviename{
+  position: absolute;
+  z-index: 1;
+  margin: 20% 10%;
+  color: #fff;
+  font-size: 3.5vw;
+  font-family:"Proxima Nova Semibold",proxima-nova-semibold,Arial,Helvetica,sans-serif !important;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px #00000070;
+  letter-spacing: .2px;
+}
+.carousel-item active{
+    position: absolute;
 }

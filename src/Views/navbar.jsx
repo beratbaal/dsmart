@@ -27,7 +27,8 @@ export class NavBar extends React.Component {
                                     <div><button className="btn btn-light btnUyeOl">Üye Ol</button></div>
                                     <div><button className="btnUyeGirisi">Üye Girişi</button></div>
                                 </div>
-                            </form>       
+                            </form>     
+                              
                         </div>
                         <div ><img src={"https://assets.dsmartgo.com.tr/content/img/icnMastersearch.svg"} className="searchButton" /></div>
                     </div>
