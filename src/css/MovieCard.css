@@ -1,0 +1,41 @@
+.card{
+    width: 90%;
+    height: fit-content;
+    padding: 5%;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.card-image{
+    overflow: hidden;
+    position: relative;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.card-play-button{
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    bottom: 2%;
+    right: 10%;
+}
+
+.card-play-button img{
+    transform: scale(1.6);
+}
+
+.card-title{
+    color: white;
+    height: 10%;
+    width: 100%;
+    margin: 10px 0px;
+    text-align: center;
+    vertical-align: middle;
+}
+@media only screen and (max-width: 440px){
+    .card-play-button{
+        bottom: 5%;
+    }
+}

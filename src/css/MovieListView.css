@@ -1,0 +1,38 @@
+.movielistview{
+    
+}
+
+.movielistview-container{
+    height: fit-content;
+    display: grid;
+}
+
+.movielistview-row{
+    width: 100%;
+}
+
+.movielistview-col{
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1140px){
+
+    .movielistview{
+        display: inline-block;
+    }
+
+    .movielistview-col{
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 740px){
+
+    .movielistview-col{
+        width: 50%;
+    }
+
+}
