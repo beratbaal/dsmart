@@ -1,0 +1,19 @@
+.customfooter{
+    height: auto;
+    min-height: auto!important;
+    width: 100%;
+    background-color: rgba(33,33,33);
+    position: relative;
+}
+.footerimage{
+    width: 84px;
+    height: 56px;
+    margin: 50px 50px 100px ;
+}
+.footerlistcustom{
+    margin: -170px 250px -100px;
+    position: absolute;
+}
+.footerbilgi{
+    margin-left: 90%;
+}

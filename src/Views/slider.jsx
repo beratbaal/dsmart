@@ -28,11 +28,12 @@ export class Slider extends React.Component {
       <div className="carousel-inner">
   
         <div className="item active">
-          <img  src={"https://image.tmdb.org/t/p/original/"+this.props.movies[0].backdrop_path} alt="Los Angeles" />
+          <img  src={"https://image.tmdb.org/t/p/original/"+this.props.movies[0].backdrop_path} />
           <div className="carousel-caption">
             <h3>{this.props.movies[0].title}</h3>
             
           </div>
+          
         </div>
         
         {

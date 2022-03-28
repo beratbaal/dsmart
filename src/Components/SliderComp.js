@@ -11,6 +11,8 @@ const path= "https://image.tmdb.org/t/p/original/"
         <div className="carousel-caption">
           <h3>{moviename}</h3>
           <p>{moviedescreption}</p>
+          <button className="btnCustom">Seç İzle</button>
+     
         </div>
       </div>
     )

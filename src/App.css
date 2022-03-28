@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  background-color: black;
+}
+.headermoviescard{
+  color: white;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: 10px;
+  font-family: 'Proxima Nova Semibold','proxima-nova-semibold',Arial,Helvetica,sans-serif!important;;
+}
+
+
