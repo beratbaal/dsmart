@@ -14,6 +14,7 @@ export class Slider extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     return (
       <div id="myCarousel" className="carousel slide myCarousel  " data-ride="carousel">
@@ -27,18 +28,18 @@ export class Slider extends React.Component {
       <div className="carousel-inner">
   
         <div className="item active">
-          <img  src={"https://img.dsmartgo.com.tr//content/f/Ih/41147/Background.jpg?v=637698016395562761"} alt="Los Angeles" />
+          <img  src={"https://image.tmdb.org/t/p/original/"+this.props.movies[0].backdrop_path} alt="Los Angeles" />
           <div className="carousel-caption">
-            <h3>Hangover</h3>
-            <p>LasVegas Dostum</p>
+            <h3>{this.props.movies[0].title}</h3>
+            
           </div>
         </div>
         
         {
           
-          movies.map((object)=>{
+          this.props.movies.slice(1,10).map((object)=>{
           
-             return  <SliderComp moviename={object.name}/>
+             return  <SliderComp moviename={object.title} movieposter={object.backdrop_path}/>
           })
         }
     

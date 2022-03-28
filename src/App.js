@@ -19,7 +19,7 @@ function App() {
     ).then(response => {
       return response.json();
     }).then(data => {
-    
+
       const movies = data["results"];
       setList(movies)
       console.log(movies)
@@ -28,8 +28,8 @@ function App() {
   return (
     <div>
 
-      <NavBar />
-      <Slider/>
+     <NavBar />
+     <Slider movies={popularMovieList.slice(10)}/>
      <HorizontalCard movies={topMovieList}/>
      <HorizontalCard movies={popularMovieList}/>
 
