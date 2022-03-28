@@ -1,6 +1,6 @@
 import React from 'react'
 
-const imagePath="https://image.tmdb.org/t/p/original/";
+const imagePath="https://image.tmdb.org/t/p/original  /";
 
 function MovieCard({
   moviename, moviedescreption, movieposter
