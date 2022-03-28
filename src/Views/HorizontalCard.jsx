@@ -2,15 +2,7 @@ import React from "react";
 import "../css/horizontalcard.css";
 import MovieCard from "../Components/MovieCard";
 
-const movies = [{
-    "name": "Yüzüklerin Efendisi"
-},
-{
-    "name": "Avengers Endgame"
-},
-{
-    "name": "Recep İvedik 2"
-}]
+
 
 export class HorizontalCard extends React.Component {
     constructor(props) {
@@ -25,9 +17,9 @@ export class HorizontalCard extends React.Component {
 
                     <div class="row flex-nowrap">
 
-                        {movies.map((name) => {
+                        {this.props.movies.map((movie) => {
                           
-                            return <MovieCard moviename={name.name} />;
+                            return <MovieCard moviename={movie.title} movieposter={movie.poster_path} />;
                         })}
 
                     </div>
