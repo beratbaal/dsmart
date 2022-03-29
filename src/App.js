@@ -4,6 +4,7 @@ import { NavBar } from "./Views/navbar";
 import { Slider } from "./Views/slider";
 import {HorizontalCard} from "./Views/HorizontalCard";
 import { Footer } from './Views/Footer';
+
 import { useEffect, useState } from 'react';
 
 
@@ -50,7 +51,9 @@ function App() {
      <HorizontalCard movies={upComingMovieList}/>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <Footer/>
+
     </div>
+   
 
   )
 }

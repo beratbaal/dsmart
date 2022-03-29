@@ -2,6 +2,10 @@
     position: absolute;
     width: 100%;
     z-index: 1;
+    
+}
+#mynavbar{
+    background-color: white;
 }
 .logo{
     height: 41.34px;
@@ -62,7 +66,7 @@
 .navbarcustom{
     background-color: rgba(0, 0, 0, 0.295);
     margin-bottom: 0px;
-  
+    
     
 }
 .customList{
@@ -123,7 +127,7 @@ li:first-child a{
 }
 @media (max-width:1200px){
     .customList{
-        visibility:hidden;
+        display: none;
     }
 }
 

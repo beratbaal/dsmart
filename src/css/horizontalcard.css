@@ -18,6 +18,7 @@
     background-color: transparent;
     border: none;
     margin-left: 97%;
+    z-index: 999;
 }
 .btngeri{
     position: absolute;
@@ -29,6 +30,7 @@
     background-color: transparent;
     border: none;
     margin-left: 3%;
+    z-index: 999;
 }
 
 .movieimg{
@@ -50,20 +52,45 @@
 .col-3{
     width: 20%;
     transition: 1s;
+    z-index: 0;
 }
 .col-3:hover{
     transform:scale(1.2);
-    
+    z-index: 10;
+
+}
+.col-3:hover .des{
+  display: block;
 }
 .col-3:hover  .info{
     transform:scale(1);
     visibility: visible;
-  
 }
 .info{
     visibility: hidden;
     transition: 0.5s;
+  
+}
+.customHorizontalCard{
+    overflow-x: scroll;
 }
 
 
-
+@media (max-width:1400px) {
+    .btngeri{
+       margin-top:15%;
+    
+    }
+    .btnileri{
+        margin-top: 15%;
+    }
+}
+@media (max-width:750px) {
+    .btngeri{
+       margin-top:40%;
+    
+    }
+    .btnileri{
+        margin-top: 40%;
+    }
+}
