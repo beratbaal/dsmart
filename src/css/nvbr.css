@@ -121,7 +121,11 @@ li:first-child a{
     height: 50px;
     width: 100%;
 }
-
+@media (max-width:1200px){
+    .customList{
+        visibility:hidden;
+    }
+}
 
 
 

@@ -3,7 +3,7 @@ import React from 'react'
 const imagePath="https://image.tmdb.org/t/p/original/";
 
 function MovieCard({
-  moviename, moviedescreption, movieposter
+  moviename, movieavarage, movieposter
 }) {
   return (
 
@@ -14,7 +14,8 @@ function MovieCard({
               <img src={imagePath+movieposter}/>
         </div>
         <div className='movieinfo'>
-              <h4>{moviename}</h4>
+              <h4 className='info'>{moviename}</h4>
+              <p className='info'>{movieavarage}</p>
         </div>
       </div>
 

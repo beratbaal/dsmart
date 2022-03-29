@@ -23,7 +23,7 @@ componentDidMount(){
 
                         {this.props.movies.map((movie) => {
                           
-                            return <MovieCard moviename={movie.title} movieposter={movie.poster_path} />;
+                            return <MovieCard moviename={movie.title} movieposter={movie.poster_path} movieavarage={movie.vote_average} />;
                          
                         })}
                         <button className="btngeri" id="geri" onClick={this.props.click}></button>

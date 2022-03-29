@@ -2,12 +2,6 @@ import React from "react";
 import "../css/slider.css";
 import SliderComp from "../Components/SliderComp";
 
-const movies = [
-  { "name": "Yüzüklerin Efendisi" },
-  
-  {"name":"Avengers"}
- 
-]
 
 
 export class Slider extends React.Component {
@@ -23,7 +17,16 @@ export class Slider extends React.Component {
         <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li>
+        <li data-target="#myCarousel" data-slide-to="7"></li>
+        <li data-target="#myCarousel" data-slide-to="8"></li>
+        <li data-target="#myCarousel" data-slide-to="9"></li>
+     
       </ol>
+      
   
       <div className="carousel-inner">
   
@@ -31,7 +34,7 @@ export class Slider extends React.Component {
           <img  src={"https://image.tmdb.org/t/p/original/"+this.props.movies[0].backdrop_path} />
           <div className="carousel-caption">
             <h3>{this.props.movies[0].title}</h3>
-            
+            <p>{this.props.movies[0].overview}</p>
           </div>
           
         </div>
@@ -40,7 +43,7 @@ export class Slider extends React.Component {
           
           this.props.movies.slice(1,10).map((object)=>{
           
-             return  <SliderComp moviename={object.title} movieposter={object.backdrop_path}/>
+             return  <SliderComp moviename={object.title} movieposter={object.backdrop_path} moviedescreption={object.overview}/>
           })
         }
     

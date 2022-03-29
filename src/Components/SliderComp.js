@@ -7,11 +7,11 @@ function SliderComp({
 const path= "https://image.tmdb.org/t/p/original/"
     return (
         <div className="item">
-        <img  src={path+movieposter} alt="Los Angeles" />
+        <img  src={path+movieposter}  />
         <div className="carousel-caption">
-          <h3>{moviename}</h3>
-          <p>{moviedescreption}</p>
-          <button className="btnCustom">Seç İzle</button>
+          <h3 className="movienamecustom">{moviename}</h3>
+          <p className="moviedescreptioncustom">{moviedescreption}</p>
+          <button className="btnCustom">Hemen İzle</button>
      
         </div>
       </div>
