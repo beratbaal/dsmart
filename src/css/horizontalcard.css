@@ -4,9 +4,8 @@
     width: 300px;
     margin: 0;
     border-style: none;
-    
+    overflow-x: hidden;
 }
-
 
 .btnileri{
     position: absolute;

@@ -23,8 +23,11 @@
     font-family: 'Proxima Nova Light','proxima-nova-light',Arial,Helvetica,sans-serif!important;
     font-weight: 500;
 }
-
-
+.footerlist li a {
+   font-size: 18px;
+   text-decoration: none;
+   color: #9e9e9e;
+}
  
 @media (max-width:1200px) {
   .customfooter{

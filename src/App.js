@@ -15,10 +15,10 @@ function App() {
   const [nowPlayingMovieList, setNowPlayingMovieList] =  useState(["","","","","","","","","","","","","","","","","","","","",]);
   const [upComingMovieList, setUpComingMovieList] = useState(["","","","","","","","","","","","","","","","","","","","",]);
   useEffect(() => {
-    Apifetch('https://api.themoviedb.org/3/movie/top_rated?api_key=3a01017aaf287e88713b7c8edd51e903&language=en-US&page=1',setTopMovieList)
-    Apifetch('https://api.themoviedb.org/3/movie/popular?api_key=3a01017aaf287e88713b7c8edd51e903&language=en-US&page=1',setPopularMovieList)
-    Apifetch('https://api.themoviedb.org/3/movie/now_playing?api_key=3a01017aaf287e88713b7c8edd51e903&language=en-US&page=1',setNowPlayingMovieList)
-    Apifetch('https://api.themoviedb.org/3/movie/upcoming?api_key=3a01017aaf287e88713b7c8edd51e903&language=en-US&page=1',setUpComingMovieList)
+    Apifetch('https://api.themoviedb.org/3/movie/top_rated?api_key=c94cd598b45d6dedb0cb1072fb43adb8&language=en-US&page=1',setTopMovieList)
+    Apifetch('https://api.themoviedb.org/3/movie/popular?api_key=c94cd598b45d6dedb0cb1072fb43adb8&language=en-US&page=1',setPopularMovieList)
+    Apifetch('https://api.themoviedb.org/3/movie/now_playing?api_key=c94cd598b45d6dedb0cb1072fb43adb8&language=en-US&page=1',setNowPlayingMovieList)
+    Apifetch('https://api.themoviedb.org/3/movie/upcoming?api_key=c94cd598b45d6dedb0cb1072fb43adb8&language=en-US&page=1',setUpComingMovieList)
 
   }, []);
   function Apifetch(url,setList){

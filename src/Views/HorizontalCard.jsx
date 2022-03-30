@@ -2,8 +2,8 @@ import React from "react";
 import "../css/horizontalcard.css";
 import MovieCard from "../Components/MovieCard";
 
-function scrolling(target, value) {
-    const customHorizontal = target.parentElement.parentElement.parentElement
+function scrolling(target, value) {  
+    const customHorizontal = target.parentElement.parentElement.parentElement 
     customHorizontal.scrollLeft += value;
 }
 

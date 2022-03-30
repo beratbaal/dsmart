@@ -4,9 +4,7 @@
     z-index: 1;
     
 }
-#mynavbar{
-    background-color: white;
-}
+
 .logo{
     height: 41.34px;
     width: 60px;
@@ -17,7 +15,7 @@
     margin: 0 10px;
 }
 .text{
-   margin: 5px auto;
+    margin: 5px auto;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     color: white;
@@ -25,7 +23,7 @@
 .tvIzle{
     height: 33px;
     width: 33px;
-   margin: 0 10px;
+    margin: 0 10px;
 }
 .banaOzel{
     height: 33px;
@@ -92,6 +90,7 @@ li a{
     font-size: 18px;
 }
 
+
 li a:hover{
     background-color: transparent;
     font-weight:500;
@@ -102,21 +101,48 @@ li:first-child a{
     color: #e87200;
     text-decoration: underline;
 }
+.carousel-indicators{
+    z-index: 1;
+}
 
 @media (max-width:575px){
     .navbar-toggler{
-      position: absolute;
-      float: left;
-      margin-bottom: 20px;
+      position: relative;
+      right: 250px;
+      bottom: 10px;
+        
     }
     .logo{
-        margin-left: 20% ;
+        position: relative;
+        left: 22%;
     }
     .searchButton{
         position: absolute;
-        margin-left: 15%;
+        margin-left: 10%;
         margin-top: -8px;
     }
+    #mynavbar{
+        background-color: black;
+    }
+    .carousel-indicators{
+        z-index: 0;
+    }
+  .banaOzel{
+      position: relative;
+      top: 30px;
+  }
+  .tvIzle{
+      position: relative;
+      top: 30px;
+  }
+  .secIzle{
+      position: relative;
+      top: 30px;
+  }
+  .text{
+    position: relative;
+    right: 30%;
+  }
 }
 .menucustom{
     background-color: #212121;
