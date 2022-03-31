@@ -4,8 +4,9 @@ import { NavBar } from "./Views/navbar";
 import { Slider } from "./Views/slider";
 import {HorizontalCard} from "./Views/HorizontalCard";
 import { Footer } from './Views/Footer';
-
+import { SignUp } from './Views/SignUp';
 import { useEffect, useState } from 'react';
+import { BrowserRouter, Route,Routes } from 'react-router-dom';
 
 
 
@@ -33,25 +34,33 @@ function App() {
     });
   }
   return (
-    <div className='main'>
-
-     <NavBar />
-     <Slider movies={popularMovieList.slice(10)}/>
-     
-     <h1 className='headermoviescard'>En İyi Filmler</h1>
-     <HorizontalCard movies={topMovieList}/>
-     <br/>
-     <h1 className='headermoviescard'>Popüler Filmler</h1>
-     <HorizontalCard movies={popularMovieList}/>
-     <br/>
-     <h1 className='headermoviescard'>Gösterimde Olan Filmler</h1>
-     <HorizontalCard movies={nowPlayingMovieList}/>
-     <br/>
-     <h1 className='headermoviescard'>Yakında Vizyonda</h1>
-     <HorizontalCard movies={upComingMovieList}/>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-      <Footer/>
-
+    <div className='main'> 
+ <BrowserRouter>
+   
+   <NavBar />
+  
+   <Slider movies={popularMovieList.slice(10)}/>
+   
+   <h1 className='headermoviescard'>En İyi Filmler</h1>
+   <HorizontalCard movies={topMovieList}/>
+   <br/>
+   <h1 className='headermoviescard'>Popüler Filmler</h1>
+   <HorizontalCard movies={popularMovieList}/>
+   <br/>
+   <h1 className='headermoviescard'>Gösterimde Olan Filmler</h1>
+   <HorizontalCard movies={nowPlayingMovieList}/>
+   <br/>
+   <h1 className='headermoviescard'>Yakında Vizyonda</h1>
+   <HorizontalCard movies={upComingMovieList}/>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <Footer/>
+   
+    <Routes>
+        <Route path='/SignaUp' element={<SignUp/>}/>
+      </Routes>
+    </BrowserRouter>
+  
+    
     </div>
    
 
