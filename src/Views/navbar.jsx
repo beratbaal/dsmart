@@ -2,6 +2,7 @@ import React from "react";
 import "../css/nvbr.css";
 import { Link } from 'react-router-dom';
 
+
 export class NavBar extends React.Component {
     constructor(props) {
         super(props);
@@ -25,7 +26,7 @@ export class NavBar extends React.Component {
                             <form className="d-flex">
                                 <div className="secenekler">
 
-                                  <Link to={"/SignUp"}><div><button className="btn btn-light btnUyeOl">Üye Ol</button></div></Link>   
+                                  <Link to={"/SignUp"}><div><button className="btn btn-light btnUyeOl" >Üye Ol</button></div></Link>   
                                     <div><button className="btnUyeGirisi">Üye Girişi</button></div>
                                 </div>
                             </form>     
