@@ -33,39 +33,51 @@ function App() {
       console.log(movies)
     });
   }
+  function MainPage(){
+    return(
+      <div className='main'> 
+      <NavBar />
+      <Slider movies={popularMovieList.slice(10)}/>
+    
+     <h1 className='headermoviescard'>En İyi Filmler</h1>
+  
+  
+     <HorizontalCard movies={topMovieList}/>
+     <br/>
+     <h1 className='headermoviescard'>Popüler Filmler</h1>
+   
+     <HorizontalCard movies={popularMovieList}/>
+     <br/>
+     <h1 className='headermoviescard'>Gösterimde Olan Filmler</h1>
+  
+     <HorizontalCard movies={nowPlayingMovieList}/>
+     <br/>
+     <h1 className='headermoviescard'>Yakında Vizyonda</h1>
+     <HorizontalCard movies={upComingMovieList}/>
+     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <Footer/>
+      </div>
+      
+    );
+   
+  }
+
   return (
-    <div className='main'> 
+   
  <BrowserRouter>
    
-   <NavBar />
   
-   <Slider movies={popularMovieList.slice(10)}/>
   
-   <h1 className='headermoviescard'>En İyi Filmler</h1>
-
-
-   <HorizontalCard movies={topMovieList}/>
-   <br/>
-   <h1 className='headermoviescard'>Popüler Filmler</h1>
- 
-   <HorizontalCard movies={popularMovieList}/>
-   <br/>
-   <h1 className='headermoviescard'>Gösterimde Olan Filmler</h1>
-
-   <HorizontalCard movies={nowPlayingMovieList}/>
-   <br/>
-   <h1 className='headermoviescard'>Yakında Vizyonda</h1>
-   <HorizontalCard movies={upComingMovieList}/>
-   <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <Footer/>
+   
    
     <Routes>
+      <Route index path="/" element={<MainPage/>}/>
         <Route index path='/SignUp' element={<SignUp/>}/>
       </Routes>
     </BrowserRouter>
   
     
-    </div>
+    
    
 
   )
