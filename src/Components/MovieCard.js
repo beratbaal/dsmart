@@ -8,20 +8,14 @@ function MovieCard({
   return (
 
     <div class="col-3">
-
       <div class="card card-block">
         <div className='movieimg'>
-          <img src={imagePath + movieposter} />
+        <img src={imagePath + movieposter} />
         </div>
         <div className='movieinfo'>
           <h4 className='info'>{moviename}</h4>
-          <p className='info'>{movieavarage}</p>
+            <p className='info'>{movieavarage}</p>
         </div>
-
-
-      </div>
-      <div className="des">
-      
       </div>
     </div>
 

@@ -7,7 +7,7 @@ import { Footer } from './Views/Footer';
 import { SignUp } from './Views/SignUp';
 import {SignIn} from './Views/SignIn';
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Route,Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Route,Routes } from 'react-router-dom';
 
 
 
@@ -38,12 +38,12 @@ function App() {
     return(
       <div className='main'> 
       <NavBar />
-      <Slider movies={popularMovieList.slice(10)}/>
+     <Slider movies={popularMovieList.slice(10)}/>
     
      <h1 className='headermoviescard'>En İyi Filmler</h1>
   
   
-     <HorizontalCard movies={topMovieList}/>
+    <HorizontalCard movies={topMovieList}/>
      <br/>
      <h1 className='headermoviescard'>Popüler Filmler</h1>
    
