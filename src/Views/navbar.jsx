@@ -27,7 +27,7 @@ export class NavBar extends React.Component {
                                 <div className="secenekler">
 
                                   <Link to={"/SignUp"}><div><button className="btn btn-light btnUyeOl" >Üye Ol</button></div></Link>   
-                                    <div><button className="btnUyeGirisi">Üye Girişi</button></div>
+                                 <Link to={"/SignIn"}><div><button className="btnUyeGirisi">Üye Girişi</button></div></Link>
                                 </div>
                             </form>     
                               

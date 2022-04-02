@@ -5,6 +5,7 @@ import { Slider } from "./Views/slider";
 import {HorizontalCard} from "./Views/HorizontalCard";
 import { Footer } from './Views/Footer';
 import { SignUp } from './Views/SignUp';
+import {SignIn} from './Views/SignIn';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
 
@@ -73,6 +74,7 @@ function App() {
     <Routes>
       <Route index path="/" element={<MainPage/>}/>
         <Route index path='/SignUp' element={<SignUp/>}/>
+        <Route index path='/SignIn' element={<SignIn/>}/>
       </Routes>
     </BrowserRouter>
   

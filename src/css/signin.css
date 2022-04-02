@@ -1,21 +1,21 @@
-.signupbody{
+.signinbody{
     
-    background: url("https://img.dsmartgo.com.tr/listimage/33/46/4681b3e9-119b-4763-bdc5-49afb18897ae_360.jpg");
+    background: url("https://img.dsmartgo.com.tr/listimage/33/09/09a52d1c-8ac2-4bd0-a861-09c0c344caf5_58.jpg");
 }
-.logosignup{
+.logosignin{
     width: 90px;
     height: 62px;
     margin-left: 45%;
     margin-top: 2%;
 }
-.signupform{
+.signinform{
     opacity: 0.8;
     background-color: #313131;
     height: 700px;
     width: 500px;
     margin-left: 32%;
 }
-.signupheader{
+.signinheader{
     font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif !important;
     top: 5%;
     left: 20%;
@@ -25,60 +25,17 @@
     color: white;
     position: relative;
 }
-.signuptext{
-    font-size: 20px;
-    font-family: 'Proxima Nova Light','proxima-nova-light',Arial,Helvetica,sans-serif!important;
-    color: rgb(255, 255, 255);
-    position: relative;
-    top:5%;
-    left:20%
-}
-.signuptext2{
-    font-size: 18px;
-    font-family: 'Proxima Nova Light','proxima-nova-light',Arial,Helvetica,sans-serif!important;
-    color: rgb(255, 255, 255);
+.labelphonenumber{
     position: relative;
     top: 10%;
-    text-align: center;
-    
-}
-.signupbutton{
-    position: relative;
-    left: 20%;
-    top: 5%;
-}
-.btnevet{
-    background-color: rgb(0, 0, 0) !important;
-    color: #616161;
-    width: 160px;
-    height: 50px;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    border:none;
-   
-}
-.btnhayır{
-    background-color: #171616 !important;
-    color: #e87200;
-    width: 160px;
-    height: 50px;
-    font-size: 24px;
-    font-weight: 600;
-    text-align: center;
-    border:none
-}
-.signuplabel{
-    position: relative;
-    top: 15%;
     color: rgb(255, 255, 255);
     left:21%;
     font-size: 18px;
     font-weight: 600;
 }
-.signupinput{
+.signininputphone{
     position: relative;
-    top: 22%;
+    top: 18%;
     border-radius: 6px;
     background-color: rgb(0, 0, 0);
     font-size: 18px;
@@ -88,12 +45,34 @@
     color: #fff;
     left: -8%;
 }
-.signupinfo{
+.labelpassword{
     position: relative;
-    top:25%;
-    color:white
+    top: 30%;
+    right: 68%;
+    color: rgb(255, 255, 255);
+    
+    font-size: 18px;
+    font-weight: 600;
 }
-.signupsubmitbutton{
+.signininputpassword{
+    position: relative;
+    top: 30%;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    font-size: 18px;
+    width: 60%;
+    border: none;
+    height: 50px;
+    color: #fff;
+    left: 20%;
+}
+.signinrememberme{
+    position: relative;
+    top: 32%;
+    left: 20%;
+    color: black;
+}
+.signinsubmitbutton{
     border-radius: 6px;
     background-color: #e87200 !important;
     border: none;
@@ -104,11 +83,26 @@
     padding: 9.5px;
     font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif;
     position: relative;
-    top: 30%;
+    top: 35%;
     width: 60%;
     left: 20%;
 }
-.signupfooter{
+.forgotpassword{
+    position: relative;
+    top: 45%;
+    left: 38%;
+    color: white;
+    text-decoration:underline;
+    font-size: large;
+}
+.uyeolmakistiyorum{
+    position: relative;
+    top: 50%;
+    left: 35%;
+    color: white;
+    font-size: large;
+}
+.signinfooter{
     background: #000;
     border-radius: 2px;
     border: 2px solid #313131;
@@ -117,46 +111,50 @@
     background-color: #000;
     opacity: 1;
     position: relative;
-    top: 40%;
+    top: 52%;
 }
 @media (max-width:1200px){
-    .signupbody{
+    .signinbody{
         background-color: #000;
         background-image: none;
     }
-    .logosignup{
+    .logosignin{
         margin-left: 42%;
     }
-    .signupform{
+    .signinform{
         margin-left: 20%;
         background-color: #000;
     }
-    .signupinput{
+    .signininputphone{
+        background-color:#333 ;
+    }
+    .signininputpassword{
         background-color: #333;
     }
+    .signinrememberme{
+        color: white;
+    }
 }
-@media (max-width:890px){
-   
-}
+
 @media (max-width:680px){
     
-    .signupform{
+    .signinform{
         position: relative;
         right: 25%;
         
     }
-    .logosignup{
+    .logosignin{
       margin-left: 30%;
 
        
     }
 }
 @media (max-width:600px){
-    .signupform{
+    .signinform{
         margin-left: 25%;
         width: 100%;
     }
-    .logosignup{
+    .logosignin{
       margin-left: 40%;
     }
 }
