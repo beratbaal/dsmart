@@ -12,9 +12,6 @@ export class HorizontalCard extends React.Component {
     constructor(props) {
         super(props);
     }
-
-
-
     render() {
 
         return (
@@ -25,7 +22,7 @@ export class HorizontalCard extends React.Component {
 
                         {this.props.movies.map((movie) => {
 
-                         return <MovieCard moviename={movie.title}  movieposter={movie.poster_path} movieavarage={movie.vote_average} />;
+                         return <MovieCard id={movie.id} title={movie.title} description={movie.overview}  imageUrl={movie.poster_path} average={movie.vote_average} />;
                          
                         })}
                         <button className="btngeri" id="geri" onClick={e => scrolling(e.target, -1000)
