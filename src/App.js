@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { NavBar } from "./Views/navbar";
+
 import { Slider } from "./Views/slider";
 import { HorizontalCard } from "./Views/HorizontalCard";
 import { Footer } from './Views/Footer';
@@ -41,6 +42,7 @@ function App() {
     return (
       <div className='main'>
         <NavBar />
+  
         <Slider movies={popularMovieList.slice(10)} />
 
         <h1 className='headermoviescard'>En İyi Filmler</h1>

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import "../css/movieinfopage.css";
 import SelectedMovieContext from "../Context/MovieContext"
-
+import {Link} from "react-router-dom"
 
 
 
@@ -32,7 +32,11 @@ function MovieInfoPage({
       }, []);
 
     return(
+
         <div>
+          <div >
+           <Link to={"/"}><img src={"https://assets.dsmartgo.com.tr/content/img/dsmart-logo-footer.svg"}  className='logocustommovieinfo'/></Link>   
+          </div>
             <div className='movieinfocustom'>
                 <div className='movieheader'>
                     <h2>{selectedMovieContext.title}</h2>
@@ -42,9 +46,13 @@ function MovieInfoPage({
                 </div>
             </div>
             <div className='movievideocustom'>
-            <iframe src={"https://www.youtube.com/embed/"+videoContent.key}></iframe> 
+            <iframe src={"https://www.youtube.com/embed/"+videoContent.key} className="videoscreen"></iframe> 
+         
             </div>
+         
         </div>
+   
+        
     );
 }
 

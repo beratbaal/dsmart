@@ -16,7 +16,7 @@ export class MovieInfoPage extends React.Component {
             <div className="movieheader">
                 <h2>Film Adı</h2>
             </div>
-            <div className="description">
+            <div className="movi">
                 <p>Film Açıklaması</p>
             </div>
             <div className="videocustom">
