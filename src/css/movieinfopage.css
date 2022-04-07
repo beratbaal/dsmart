@@ -2,88 +2,144 @@ body{
     background-color: black;
 }
 .logocustommovieinfo{
-    margin: 5% 5%;
+    margin: 2% 5%;
     height: 10%;
     position: absolute;
 }
-.movieheader{
-    
-    width: auto;
+.movieinfoposter{
+    height: 372.8px;
+    width: 250px;
+    position: relative;
+    top: 150px;
+    left: 10%;
+}
+.movieinfoheader{
+    position: relative;
+    width: 250px;
     height: auto;
-    font-size: 32px;
-    float: left;
-    margin-top: 15%;
-    margin-left: 23%;
+    top: 160px;
+    left: 10%;
     color: white;
-  
-}
-.moviedescreption{
-    position: absolute;
-    color: white;
-    float: left;
-    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-left: 5%;
-    height: 20%;
-    width: 50%;
-    margin-top: 25%;
 }
+
 .movievideocustom{
-    margin-top: 15%;
-    position: absolute;
-    margin-left: 60%;
-    height: 200px;
-    width: 400px;
+    position: relative;
+    left: 50%;
+    bottom: 260px;
+    
 }
 .videoscreen{
-    width: 120%;
-    height: 150%;
-
+   height: 372.8px;
+   width: 700px;
+}
+.movieinfodescription{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 80%;
+    bottom: 150px;
+    left: 12%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.oneriheader{
+    position: relative;
+    left: 7px;
+    color: white;
 }
 
+
+@media (max-width:1420px){
+    .videoscreen{
+        margin-left: -15%;
+    }
+}
+@media(max-width:1080px){
+    .movieinfoposter{
+        margin-left: -5%;
+    }
+    .movieinfoheader{
+        margin-left: -5%;
+    }
+    .videoscreen{
+       margin-left: -20%;
+    }
+}
+@media (max-width:1030px){
+    .movieinfoposter{
+        height: 20%;
+        width: 20%;
+    }
+    .movieinfoheader{
+        position: relative;
+        left: 8%;
+    }
+    .videoscreen{
+        height: 300px;
+        width: 400px;
+        position: relative;
+        left: 15%;
+        top: 80px;
+    }
+    .movieinfodescription{
+       position: relative;
+        top: -5px;
+        top: -70px;
+    }
+
+}
+@media (max-width:915px){
+    .videoscreen{
+        position: relative;
+        top: 120px;
+    }
+}
+@media (max-width:740px){
+    .videoscreen{
+        position: relative;
+        left: 5%;
+        top: 160px;
+        height: 200px;
+        width: 400px;
+    }
+    .movieinfodescription{
+        position: relative;
+        top: 2px;
+    }
+}
 @media (max-width:510px){
     .logocustommovieinfo{
         margin-left: 40%;
         
     }
-    .movieheader{
-      position: relative;
-      top: 40px;
-      right: 20px;
-       
-    }
-    .moviedescreption{
-        margin-left: 12%;
-        margin-top: 50%;
-    }
-    .videoscreen{
-        height: 100%;
-        width: 100%;
+    .movieinfoposter{
+        width: 50%;
         position: relative;
-        left: 20%;
-        
+        left: 30%;
+    }
+    .movieinfoheader{
+        position: relative;
+        left: 32%;
     
     }
-
-}
-@media (max-width:1215px){
     .videoscreen{
-        width: 100%;
-        height: 100%;
-        margin-top: 5%;
+        position: relative;
+        height: 200px;
+        width: 400px;
+        left: -100px;
+        top: 650px;
     }
-}
-@media (max-width:1050px){
-    .videoscreen{
-        width: 100%;
-        height: 100%;
+    .movieinfodescription{
+        position: relative;
+        top: 10px;
+    }
+    .oneriheader{
+        position: relative;
+        top: 400px;
+    }
+    .container-fluidcustom{
         margin-top: 80%;
-        margin-left: -80%;
     }
-    .moviedescreption{
-        width: 80%;
-    }
-    .movieheader{
-        margin-left: 38%;
-    }
+
 }
