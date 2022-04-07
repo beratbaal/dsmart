@@ -37,7 +37,7 @@ function App() {
       console.log(movies)
     });
   }
-  function MainPage() {
+  function MainPage() {""
     return (
       <div className='main'>
         <NavBar />
