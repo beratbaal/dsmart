@@ -7,7 +7,7 @@ import { Footer } from './Views/Footer';
 import { SignUp } from './Views/SignUp';
 import { SignIn } from './Views/SignIn';
 import MovieInfo from "./Components/MovieInfo";
-import { MovieInfoHorizontalCard } from './Views/MovieInfoHorizontalCard';
+import { VideoHls } from './Views/VideoHls';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { SelectedMovieContextProvider } from './Context/MovieContext';
@@ -82,7 +82,7 @@ function App() {
           <Route index path='/SignUp' element={<SignUp />} />
           <Route index path='/SignIn' element={<SignIn />} />
           <Route index path='/MovieInfoPage' element={<MovieInfo />} />
-       
+          <Route index path='/VideoHls' element={<VideoHls/>}/>
         </Routes>
       </SelectedMovieContextProvider>
     </BrowserRouter>

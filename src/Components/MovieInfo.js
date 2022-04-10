@@ -55,6 +55,7 @@ function MovieInfoPage({
                 <iframe src={"https://www.youtube.com/embed/" + videoContent.key} className="videoscreen"></iframe>
             </div>
             <div className='movieinfodescription'><p>{selectedMovieContext.description}</p></div>
+            <Link to={"/VideoHls"}> <button className='videojsbtn'>VideoJS</button></Link> 
             <p className='oneriheader'>Sizin İçin Önerilenler</p>
             <MovieInfoHorizontalCard movies={nowPlayingMovieList}/>
             <br/> <br/> <br/> <br/>
