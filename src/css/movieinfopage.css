@@ -1,11 +1,7 @@
 body{
     background-color: black;
 }
-.logocustommovieinfo{
-    margin: 2% 5%;
-    height: 10%;
-    position: absolute;
-}
+
 .movieinfoposter{
     height: 372.8px;
     width: 250px;
@@ -147,10 +143,7 @@ body{
     }
 }
 @media (max-width:510px){
-    .logocustommovieinfo{
-        margin-left: 40%;
-        
-    }
+   
     .movieinfoposter{
         width: 50%;
         position: relative;
@@ -184,4 +177,18 @@ body{
         top: 10px;
     }
 
+}
+@media (max-width:366px){
+   
+    .movieinfoheader{
+        margin-left: -15%;
+    }
+    .movieinfodescription{
+        margin-top: -5%;
+    }
+    .videojsbtn{
+       position: relative;
+       top: 240px;
+       left: 32%;
+    }
 }

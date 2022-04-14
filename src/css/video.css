@@ -1,8 +1,44 @@
+.videomaindiv{
+    background: url("https://img.dsmartgo.com.tr/listimage/33/1b/1be66eb4-6202-4bc9-ab1f-e502c723a1bc_223.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
 .video-js{
-    display: block;
-    margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-    height: 200px;
-    width: 400px;
+    margin-left: 24%;
+    margin-bottom: 20%;
+    margin-top: 5%;
+    background-color: transparent !important;
+
+}
+@media (max-width:1130px){
+    .video-js{
+        height: 300px;
+        width: 500px;
+        margin-left: 21%;
+    }
+}
+@media(max-width:950px){
+    .video-js{
+        margin-left: 17%;
+    }
+}
+@media(max-width:800px){
+    .video-js{
+        margin-left: 15%;
+    }
+}
+@media(max-width:700px){
+    .videomaindiv{
+        background-image: none;
+    }
+  
+    .video-js{
+        height: 200px;
+        width: 350px;
+        margin-left: 10%;
+    }
 }

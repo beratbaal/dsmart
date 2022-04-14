@@ -1,0 +1,37 @@
+.logocustommovieinfo{
+    margin: 2% 2%;
+    height: 10%;
+    position: absolute;
+    height: 72px;
+    width: 200px;
+}
+.videologocustom{
+    height: 10%;
+    margin: 2% 2%;
+    height: 72px;
+    width: 200px;
+}
+
+
+@media (max-width:510px){
+    .logocustommovieinfo{
+        margin-left: 8%;
+        
+    }
+    .videologocustom{
+        margin-left: 8%;
+        
+    }
+    
+
+}
+@media (max-width:366px){
+    .logocustommovieinfo{
+        margin-left: -10%;
+    }
+    .videologocustom{
+         margin-left: -10%;
+        
+    }
+   
+}

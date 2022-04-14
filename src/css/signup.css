@@ -1,5 +1,7 @@
 .signupbody{
-    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
     background: url("https://img.dsmartgo.com.tr/listimage/33/46/4681b3e9-119b-4763-bdc5-49afb18897ae_360.jpg");
 }
 .logosignup{

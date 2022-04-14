@@ -157,6 +157,18 @@ li:first-child a{
         display: none;
     }
 }
+@media (max-width:366px){
+    .navbar-toggler{
+        margin-left: 30%;
+    }
+    .searchButton{
+        margin-left: 2%;
+    }
+    .logo{
+        position: relative;
+        left: 30%;
+    }
+}
 
 
 

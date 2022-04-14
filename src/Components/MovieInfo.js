@@ -4,7 +4,7 @@ import SelectedMovieContext from "../Context/MovieContext"
 import { Link } from "react-router-dom"
 import {MovieInfoHorizontalCard} from "../Views/MovieInfoHorizontalCard";
 import {Footer} from "../Views/Footer";
-
+import {Logo} from "./Logo";
 
 
 function MovieInfoPage({
@@ -48,7 +48,7 @@ function MovieInfoPage({
 
     return (
         <div>
-            <Link to={"/"}><img src={"https://assets.dsmartgo.com.tr/content/img/dsmart-logo-footer.svg"} className='logocustommovieinfo' /></Link>
+            <Logo logoStyle="logocustommovieinfo"/>
             <div ><img src={imagePath + selectedMovieContext.poster} className='movieinfoposter' /></div>
             <div className='movieinfoheader'><h4>{selectedMovieContext.title}</h4></div>
             <div className='movievideocustom'>
