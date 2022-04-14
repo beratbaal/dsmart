@@ -31,7 +31,6 @@
     margin: 0 10px;
 }
 .secenekler{
-   
     width: auto;
     display: flex;
 }
@@ -40,6 +39,9 @@
     margin-top: 5px;
  
 }
+.d-flex{
+    float: right;
+}
 .btnUyeOl{
     width: 84.68px;
     height: 30.85px;
@@ -47,7 +49,7 @@
     font-size: medium;
     font-weight: 500;
     color: black;
-    margin-left: 1000%;
+    
     
 }
 .btnUyeGirisi{
@@ -58,8 +60,7 @@
     background-color: transparent;
     border: none;
     color: white;
-    margin-left: 1000%;
-
+  
 }
 .navbarcustom{
     background-color: rgba(0, 0, 0, 0.295);
@@ -105,7 +106,14 @@ li:first-child a{
 .carousel-indicators{
     z-index: 1;
 }
-
+@media (max-width:1500px){
+    .btnUyeOl{
+        margin-left: -50%;
+    }
+    .btnUyeGirisi{
+        margin-left: -50%;
+    }
+}
 @media (max-width:575px){
     .navbar-toggler{
       position: relative;
@@ -144,6 +152,14 @@ li:first-child a{
     position: relative;
     right: 30%;
   }
+  .btnUyeOl{
+     position: relative;
+     right: 100%;
+  }
+  .btnUyeGirisi{
+      position: relative;
+      right: 100%;
+  }
 }
 .menucustom{
     background-color: #212121;
@@ -152,6 +168,7 @@ li:first-child a{
     height: 50px;
     width: 100%;
 }
+
 @media (max-width:1200px){
     .customList{
         display: none;

@@ -23,12 +23,13 @@ export class NavBar extends React.Component {
                                 <img src={"//assets.dsmartgo.com.tr/content/img/2-TV.png"} className="tvIzle" /><p className="text">TV İzle</p>
                                 <img src={"https://img.dsmartgo.com.tr/config/image/default_profile.png"} className="banaOzel" /><p className="text">Bana Özel</p>
                             </ul>
+                            
                             <form className="d-flex">
-                                <div className="secenekler">
+                               
 
-                                  <Link to={"/SignUp"}><div><button className="btn btn-light btnUyeOl" >Üye Ol</button></div></Link>   
-                                 <Link to={"/SignIn"}><div><button className="btnUyeGirisi">Üye Girişi</button></div></Link>
-                                </div>
+                                  <Link to={"/SignUp"}><button className="btn btn-light btnUyeOl" >Üye Ol</button></Link>   
+                                 <Link to={"/SignIn"}><button className="btnUyeGirisi">Üye Girişi</button></Link>
+                                
                             </form>     
                               
                         </div>

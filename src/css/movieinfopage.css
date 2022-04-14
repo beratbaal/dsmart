@@ -41,7 +41,7 @@ body{
 }
 .videojsbtn{
     position: absolute;
-    bottom: -15px;
+    bottom: -50px;
     left: 48%;
     border-radius: 50%;
     border: none;
@@ -175,6 +175,7 @@ body{
     .videojsbtn{
         position: relative;
         top: 10px;
+        left: 38%;
     }
 
 }
