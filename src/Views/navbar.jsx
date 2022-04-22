@@ -13,11 +13,12 @@ export class NavBar extends React.Component {
             <div className="mainNavBarDiv">
                 <nav className="navbar navbar-expand-sm navbar-pink  navbarcustom">
                     <div className="container-fluid">
+                       
                         <img src={"https://assets.dsmartgo.com.tr/content/img/dsmart-logo.svg"} className="logo" />
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                             <span className="navbar-toggler-icon"><img src={"https://assets.dsmartgo.com.tr/content/img/menu.png"} /></span>
                         </button>
-                    
+                       
                         <div className="collapse navbar-collapse" id="mynavbar">
                             <ul className="navbar-nav me-auto">
                                 <img src={"https://assets.dsmartgo.com.tr/content/img/1-Home.png"} className="secIzle" /><p className="text">Seç İzle</p>

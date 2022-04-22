@@ -138,6 +138,12 @@
         top: 10px;
         left: 38%;
     }
+    .btnUyeOl{
+        margin-left: -140%;
+    }
+    .btnUyeGirisi{
+        margin-left: -140%;
+    }
 }
 @media (max-width:400px){
     .videojsbtn{

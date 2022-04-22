@@ -140,11 +140,13 @@ li:first-child a{
     width: 100%;
 }
 
+
 @media (max-width:1200px){
     .customList{
         display: none;
     }
 }
+
 @media (max-width:400px){
     .navbar-toggler{
         margin-left: 30%;
