@@ -5,6 +5,7 @@ import { Link } from "react-router-dom"
 import {MovieInfoHorizontalCard} from "../Views/MovieInfoHorizontalCard";
 import {Footer} from "../Views/Footer";
 import {Logo} from "./Logo";
+import {Button} from "./Button";
 
 
 function MovieInfoPage({
@@ -14,7 +15,7 @@ function MovieInfoPage({
     const selectedMovieContext = useContext(SelectedMovieContext);
     const videoApiPath = "https://api.themoviedb.org/3/movie/" + selectedMovieContext.id + "/videos?api_key=3a01017aaf287e88713b7c8edd51e903&language=en-US";
     const [videoContent, setVideoContent] = useState({
-        site: "",
+        site: "",      
         key: "",
     });
     useEffect(()=>{
@@ -55,7 +56,7 @@ function MovieInfoPage({
                 <iframe src={"https://www.youtube.com/embed/" + videoContent.key} className="videoscreen"></iframe>
             </div>
             <div className='movieinfodescription'><p>{selectedMovieContext.description}</p></div>
-            <Link to={"/VideoHls"}> <button className='videojsbtn'>VideoJS</button></Link> 
+            <Button buttonStyle="videojsbtn" path={"/VideoHls"}>VideoJS</Button>
             <p className='oneriheader'>Sizin İçin Önerilenler</p>
             <MovieInfoHorizontalCard movies={nowPlayingMovieList}/>
             <br/> <br/> <br/> <br/>

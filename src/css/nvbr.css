@@ -42,26 +42,7 @@
 .d-flex{
     float: right;
 }
-.btnUyeOl{
-    width: 84.68px;
-    height: 30.85px;
-    border-radius: 30px;
-    font-size: medium;
-    font-weight: 500;
-    color: black;
-    
-    
-}
-.btnUyeGirisi{
-    width: 84.68px;
-    height: 30.85px;
-    font-size: medium;
-    font-weight: 500;
-    background-color: transparent;
-    border: none;
-    color: white;
-  
-}
+
 .navbarcustom{
     background-color: rgba(0, 0, 0, 0.295);
     margin-bottom: 0px;
@@ -106,12 +87,9 @@ li:first-child a{
 .carousel-indicators{
     z-index: 1;
 }
-@media (max-width:1500px){
-    .btnUyeOl{
-        margin-left: -50%;
-    }
-    .btnUyeGirisi{
-        margin-left: -50%;
+@media (max-width:770px){
+    .navbar-nav{
+        margin-left: 2%;
     }
 }
 @media (max-width:575px){
@@ -152,14 +130,7 @@ li:first-child a{
     position: relative;
     right: 30%;
   }
-  .btnUyeOl{
-     position: relative;
-     right: 100%;
-  }
-  .btnUyeGirisi{
-      position: relative;
-      right: 100%;
-  }
+ 
 }
 .menucustom{
     background-color: #212121;
@@ -174,7 +145,7 @@ li:first-child a{
         display: none;
     }
 }
-@media (max-width:366px){
+@media (max-width:400px){
     .navbar-toggler{
         margin-left: 30%;
     }
@@ -185,6 +156,12 @@ li:first-child a{
         position: relative;
         left: 30%;
     }
+   .navbar-nav{
+       margin-left: -5%;
+   }
+   .searchButton{
+       display: none;
+   }
 }
 
 

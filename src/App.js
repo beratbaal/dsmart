@@ -31,7 +31,7 @@ function App() {
     ).then(response => {
       return response.json();
     }).then(data => {
-
+      
       const movies = data["results"];
       setList(movies)
       console.log(movies)

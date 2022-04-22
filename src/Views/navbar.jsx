@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/nvbr.css";
-import { Link } from 'react-router-dom';
+import { Button } from "../Components/Button";
+
 
 
 export class NavBar extends React.Component {
@@ -27,8 +28,8 @@ export class NavBar extends React.Component {
                             <form className="d-flex">
                                
 
-                                  <Link to={"/SignUp"}><button className="btn btn-light btnUyeOl" >Üye Ol</button></Link>   
-                                 <Link to={"/SignIn"}><button className="btnUyeGirisi">Üye Girişi</button></Link>
+                                 <Button buttonStyle="btnUyeOl" path={"/SignUp"}>Üye Ol</Button>
+                                 <Button buttonStyle="btnUyeGirisi" path={"/SignIn"}>Üye Girişi</Button>
                                 
                             </form>     
                               

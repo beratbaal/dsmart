@@ -39,26 +39,7 @@ body{
     left: 12%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.videojsbtn{
-    position: absolute;
-    bottom: -50px;
-    left: 48%;
-    border-radius: 50%;
-    border: none;
-    color: #000;
-    border-radius: 20px !important;
-    font-size: 22px !important;
-    transition: all .5s;
-    width: max-content;
-    border: solid 1px #fff;
-    padding-left: 40px;
-    padding-right: 20px;
-    background-image: url("https://assets.dsmartgo.com.tr/content/img/icn-play.png");
-    background-repeat: no-repeat ;
-    background-position-x: left;
-    background-size: 30px;
-    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif!important;
-}
+
 .oneriheader{
     position: relative;
     left: 7px;
@@ -81,10 +62,7 @@ body{
     .videoscreen{
        margin-left: -20%;
     }
-    .videojsbtn{
-        position: relative;
-        bottom: 120px;
-    }
+    
 }
 @media (max-width:1030px){
     .movieinfoposter{
@@ -107,10 +85,7 @@ body{
         top: -5px;
         top: -70px;
     }
-    .videojsbtn{
-        position: relative;
-        bottom: 70px;
-    }
+   
 
 }
 @media (max-width:915px){
@@ -118,11 +93,7 @@ body{
         position: relative;
         top: 120px;
     }
-    .videojsbtn{
-        position: relative;
-        bottom: 60px;
-        left: 45%;
-    }
+    
 }
 @media (max-width:740px){
     .videoscreen{
@@ -136,11 +107,7 @@ body{
         position: relative;
         top: 2px;
     }
-    .videojsbtn{
-        position: relative;
-        bottom: 150px;
-        left: 40%;
-    }
+    
 }
 @media (max-width:510px){
    
@@ -172,14 +139,10 @@ body{
     .container-fluidcustom{
         margin-top: 80%;
     }
-    .videojsbtn{
-        position: relative;
-        top: 10px;
-        left: 38%;
-    }
+
 
 }
-@media (max-width:366px){
+@media (max-width:400px){
    
     .movieinfoheader{
         margin-left: -15%;
@@ -187,9 +150,9 @@ body{
     .movieinfodescription{
         margin-top: -5%;
     }
-    .videojsbtn{
+   .videoscreen{
        position: relative;
-       top: 240px;
-       left: 32%;
-    }
+        left: -120px;
+        top: 700px;
+   }
 }

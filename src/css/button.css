@@ -1,0 +1,152 @@
+.btnUyeOl{
+    width: 84.68px;
+    height: 30.85px;
+    border-radius: 30px;
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+}
+.btnUyeGirisi{
+    width: 84.68px;
+    height: 30.85px;
+    font-size: medium;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    color: white;
+  
+}
+.btnSlider{
+    color: #000;
+    border-radius: 20px !important;
+    font-size: 22px !important;
+    transition: all .5s;
+    width: max-content;
+    border: solid 1px #fff;
+    margin: 0 15% 20% -100%;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-image: url("https://assets.dsmartgo.com.tr/content/img/icn-play.png");
+    background-repeat: no-repeat ;
+    background-position-x: left;
+    background-size: 30px;
+    position: relative;
+    top: 150px;
+    left: 57%;
+    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif!important;
+
+}
+.videojsbtn{
+    position: absolute;
+    bottom: -50px;
+    left: 48%;
+    border-radius: 50%;
+    border: none;
+    color: #000;
+    border-radius: 20px !important;
+    font-size: 22px !important;
+    transition: all .5s;
+    width: max-content;
+    border: solid 1px #fff;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-image: url("https://assets.dsmartgo.com.tr/content/img/icn-play.png");
+    background-repeat: no-repeat ;
+    background-position-x: left;
+    background-size: 30px;
+    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif!important;
+}
+@media (max-width:1500px){
+    .btnUyeOl{
+        margin-left: -50%;
+    }
+    .btnUyeGirisi{
+        margin-left: -50%;
+    }
+    .btnSlider{
+        position: relative;
+        top:100px
+    }
+}
+@media (max-width:1200px){
+    .btnCustom{
+        position: relative;
+        top: 50px;
+        width: 200px;
+      }
+      
+}
+@media (max-width:1080px){
+    .videojsbtn{
+        position: relative;
+        bottom: 120px;
+    }
+}
+@media (max-width:1030px){
+    .videojsbtn{
+        position: relative;
+        bottom: 70px;
+    }
+}
+@media (max-width:915px){
+    .videojsbtn{
+        position: relative;
+        bottom: 60px;
+        left: 45%;
+    }
+    .btnSlider{
+        position: relative;
+        top: 70px;
+    }
+}
+@media (max-width:770px){
+    .btnUyeOl{
+        position: relative;
+        left: -20px;
+    }
+    .btnUyeGirisi{
+        position: relative;
+        left: -20px;
+    }
+}
+@media (max-width:740px){
+    .videojsbtn{
+        position: relative;
+        bottom: 150px;
+        left: 40%;
+    }
+    .btnUyeOl{
+      margin-left: 8%;
+    }
+    .btnUyeGirisi{
+        margin-left: 8%;
+    }
+}
+@media (max-width:575px){
+    .btnUyeOl{
+        position: relative;
+        right: 100%;
+     }
+     .btnUyeGirisi{
+         position: relative;
+         right: 100%;
+     }
+}
+@media (max-width:510px){
+    .videojsbtn{
+        position: relative;
+        top: 10px;
+        left: 38%;
+    }
+}
+@media (max-width:400px){
+    .videojsbtn{
+       margin-left: -5%;
+     }
+     .btnUyeOl{
+         margin-left: -70%;
+     }
+     .btnUyeGirisi{
+         margin-left: -70%;
+     }
+}
