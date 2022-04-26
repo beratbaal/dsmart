@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background: url("https://img.dsmartgo.com.tr/listimage/33/09/09a52d1c-8ac2-4bd0-a861-09c0c344caf5_58.jpg");
+    position: relative;
 }
 .logosignin{
     width: 90px;
@@ -74,21 +75,7 @@
     left: 20%;
     color: black;
 }
-.signinsubmitbutton{
-    border-radius: 6px;
-    background-color: #e87200 !important;
-    border: none;
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-    width: 100%;
-    padding: 9.5px;
-    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif;
-    position: relative;
-    top: 35%;
-    width: 60%;
-    left: 20%;
-}
+
 .forgotpassword{
     position: relative;
     top: 45%;
@@ -157,6 +144,7 @@
         width: 100%;
     }
     .logosignin{
-      margin-left: 40%;
+      margin-left: 42%;
+      margin-top: 5%;
     }
 }

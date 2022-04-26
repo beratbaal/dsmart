@@ -11,6 +11,7 @@
     margin-top: 2%;
 }
 .signupform{
+  
     opacity: 0.8;
     background-color: #313131;
     height: 700px;
@@ -42,6 +43,8 @@
     position: relative;
     top: 10%;
     text-align: center;
+    width: 80%;
+    margin-left: 10%;
     
 }
 .signupbutton{
@@ -93,23 +96,13 @@
 .signupinfo{
     position: relative;
     top:25%;
-    color:white
-}
-.signupsubmitbutton{
-    border-radius: 6px;
-    background-color: #e87200 !important;
-    border: none;
-    font-size: 20px;
+    color:white;
+    width: 80%;
     text-align: center;
-    color: #fff;
-    width: 100%;
-    padding: 9.5px;
-    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif;
-    position: relative;
-    top: 30%;
-    width: 60%;
-    left: 20%;
+    margin-left: 10%;
+    
 }
+
 .signupfooter{
     background: #000;
     border-radius: 2px;
@@ -119,7 +112,7 @@
     background-color: #000;
     opacity: 1;
     position: relative;
-    top: 40%;
+    top: 34%;
 }
 @media (max-width:1200px){
     .signupbody{

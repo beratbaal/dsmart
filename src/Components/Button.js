@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../css/button.css";
 
-const STYLES = ['btnUyeOl','btnUyeGirisi','btnSlider','videojsbtn'];
+const STYLES = ['btnUyeOl','btnUyeGirisi','btnSlider','videojsbtn','signupsubmitbutton','signinsubmitbutton'];
 
 export const Button =({
     children,

@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/signup.css";
 import { Footer } from "./Footer";
+import { Button } from "../Components/Button";
 
 export class SignUp extends React.Component {
     constructor(props) {
@@ -18,12 +19,12 @@ export class SignUp extends React.Component {
                         <button className="btnevet">Evet</button>
                         <button className="btnhayır">Hayır</button>
                     </div>
-                    <p className="signuptext2">Hemen D-Smart GO’ya ücretsiz üye olabilir, 1 ay boyunca Film Dizi paketinizin keyfini çıkarabilirsiniz.</p>
+                   <div  className="signuptext2"><p>Hemen D-Smart GO’ya ücretsiz üye olabilir, 1 ay boyunca Film Dizi paketinizin keyfini çıkarabilirsiniz.</p></div>
                     
                         <span className="signuplabel">Telefon Numarası</span>
                         <input type="text"  className="signupinput" placeholder="5XX XXX XX XX"/>
-                        <p className="signupinfo">Girmiş olduğunuz cep telefonu numarasına, SMS aracılığı ile doğrulama kodu gönderilecektir.Kişisel verilerinizin işlenmesine ilişkin detaylı bilgi için tıklayınız.</p>
-                        <button className="signupsubmitbutton">Devam Et</button>
+                       <div className="signupinfo"><p>Girmiş olduğunuz cep telefonu numarasına, SMS aracılığı ile doğrulama kodu gönderilecektir.Kişisel verilerinizin işlenmesine ilişkin detaylı bilgi için tıklayınız.</p></div> 
+                       <Button buttonStyle="signupsubmitbutton">Devam Et</Button>
                         <div className="signupfooter">
                          <a href="#">D-Smart Go Nedir?</a>   
                         </div>

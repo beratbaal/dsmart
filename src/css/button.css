@@ -56,6 +56,37 @@
     background-size: 30px;
     font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif!important;
 }
+.signupsubmitbutton{
+    border-radius: 6px;
+    background-color: #e87200 !important;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 9.5px;
+    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif;
+    position: relative;
+    top: 30%;
+    width: 60%;
+    left: 20%;
+    
+}
+.signinsubmitbutton{
+    border-radius: 6px;
+    background-color: #e87200 !important;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    padding: 9.5px;
+    font-family: 'Proxima Nova Semibold',proxima-nova-semibold,Arial,Helvetica,sans-serif;
+    position: relative;
+    top: 35%;
+    width: 60%;
+    left: 20%;
+}
 @media (max-width:1500px){
     .btnUyeOl{
         margin-left: -50%;

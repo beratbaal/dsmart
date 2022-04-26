@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/signin.css";
 import { Footer } from "./Footer";
+import { Button } from "../Components/Button";
 
 export class SignIn extends React.Component {
     constructor(props) {
@@ -17,14 +18,14 @@ export class SignIn extends React.Component {
                     <span className="labelpassword">Şifre</span>
                     <input type="password"  className="signininputpassword" placeholder="***********"/>
                     <div className="signinrememberme"><input type="checkbox"/>Beni Hatırla</div>
-                    <button className="signinsubmitbutton">Devam Et</button>
+                    <Button buttonStyle="signinsubmitbutton">Devam Et</Button>
                     <div className="forgotpassword"><a href="#">Şifremi Unuttum</a></div>
                     <div className="uyeolmakistiyorum"><a href="#">Üye Olmak İstiyorum</a></div>
                     <div className="signinfooter">
                          <a href="#">Yardım İster misiniz?</a>   
                         </div>
                 </div>
-                <Footer/>
+              <Footer/>
             </div>
             
         );
