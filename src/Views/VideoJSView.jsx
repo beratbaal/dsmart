@@ -1,10 +1,9 @@
 import React from 'react';
 import VideoJS from "../Components/VideoJS"
-import { Link } from 'react-router-dom';
 import {Footer} from "./Footer";
 import {Logo} from '../Components/Logo';
 
-export class VideoHls extends React.Component {
+export class VideoJSView extends React.Component {
     constructor(props) {
         super(props);
     }

@@ -7,7 +7,9 @@ import { Footer } from './Views/Footer';
 import { SignUp } from './Views/SignUp';
 import { SignIn } from './Views/SignIn';
 import MovieInfo from "./Components/MovieInfo";
-import { VideoHls } from './Views/VideoHls';
+import VideoJS from './Components/VideoJS';
+import VideoHLS from './Components/VideoHLS';
+import { VideoJSView } from './Views/VideoJSView';
 import { useEffect, useState } from 'react';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import { SelectedMovieContextProvider } from './Context/MovieContext';
@@ -82,7 +84,8 @@ function App() {
           <Route index path='/SignUp' element={<SignUp />} />
           <Route index path='/SignIn' element={<SignIn />} />
           <Route index path='/MovieInfoPage' element={<MovieInfo />} />
-          <Route index path='/VideoHls' element={<VideoHls/>}/>
+          <Route index path='/VideoJSView' element={<VideoJSView/>}/>
+          <Route index path='/VideoHLS' element={<VideoHLS/>}/>
         </Routes>
       </SelectedMovieContextProvider>
     </BrowserRouter>
