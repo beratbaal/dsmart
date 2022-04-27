@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import "../css/movieinfopage.css";
 import SelectedMovieContext from "../Context/MovieContext"
-import { Link } from "react-router-dom"
 import {MovieInfoHorizontalCard} from "../Views/MovieInfoHorizontalCard";
 import {Footer} from "../Views/Footer";
 import {Logo} from "./Logo";
@@ -56,7 +55,7 @@ function MovieInfoPage({
                 <iframe src={"https://www.youtube.com/embed/" + videoContent.key} className="videoscreen"></iframe>
             </div>
             <div className='movieinfodescription'><p>{selectedMovieContext.description}</p></div>
-            <Button buttonStyle="videojsbtn" path={"/VideoHls"}>VideoJS</Button>
+            <Button buttonStyle="videojsbtn" path={"/VideoJSView"}>VideoJS</Button>
             <p className='oneriheader'>Sizin İçin Önerilenler</p>
             <MovieInfoHorizontalCard movies={nowPlayingMovieList}/>
             <br/> <br/> <br/> <br/>

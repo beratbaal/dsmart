@@ -1,0 +1,31 @@
+.hlsinput{
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+    border-radius: 5px;
+    top: 180px;
+    border: none;
+    background-color: #e87200;
+    
+}
+.hls-player{
+   
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+  
+    
+}
+@media (max-width:1258px){
+    .hlsinput{
+        position: absolute;
+        margin-top: -8%;
+    
+    }
+}
+@media (max-width:920px){
+    .hlsinput{
+        position: absolute;
+    }
+}
