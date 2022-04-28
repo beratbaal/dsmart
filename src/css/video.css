@@ -5,7 +5,15 @@
     background-size: contain;
    
 }
-
+.hlsinput{
+     margin-left: 28% ;
+    width: 43%;
+    border-radius: 5px;
+    top: 100px;
+    left: 11%;
+    border: none;
+    background-color: #e87200;
+}
 .video-js{
     margin-right: auto;
     margin-left: 24%;
