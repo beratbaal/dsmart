@@ -14,9 +14,12 @@
     border: none;
     background-color: #e87200;
 }
+::placeholder{
+    color: black;
+}
 .video-js{
     margin-right: auto;
-    margin-left: 24%;
+    margin-left: 25%;
     margin-bottom: 20%;
     margin-top: 5%;
     background-color: transparent !important;

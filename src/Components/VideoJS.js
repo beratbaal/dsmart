@@ -2,11 +2,11 @@ import React from 'react'
 import '../css/video.css';
 import VideoPlayer from 'react-video-js-player';
 import { useState } from "react";
-
+import {Footer} from "../Views/Footer";
+import { Logo } from './Logo';
 
 export default function VideoJS({
-  autoplay,
-  poster = "https://halitparlak.net/wp-content/uploads/2020/10/VideoJS.png",
+  poster = "https://i2.cnnturk.com/i/cnnturk/75/800x400/5e7cec44d265a213003b28cf",
 
 
 }) {
@@ -15,14 +15,7 @@ export default function VideoJS({
     "https://multiplatform-f.akamaihd.net/i/multi/will/bunny/big_buck_bunny_,640x360_400,640x360_700,640x360_1000,950x540_1500,.f4v.csmil/master.m3u8"
   );
 
-  function onClick (){
-   const  element = document.getElementById('link');
-   if(element!=null){
-     setHlsUrl(element.value)
-     console.log(element.value)
-   }
-
-  }
+ 
   function VİdeoPlayer({url}){
     return(
       <div className='video-js'>
@@ -30,9 +23,12 @@ export default function VideoJS({
       <VideoPlayer
         src={url}
         poster={poster}
+        width="600"
+        height="400"
         playbackRates={[0.25, 0.50, 1, 1.25, 1.50, 2]}
         autoplay={true}
         controls={true}
+        
       />
     
     </div>
@@ -42,10 +38,11 @@ export default function VideoJS({
   return (
     
     <>
+    <Logo logoStyle="videologocustom" />
     <div>
       
       <input 
-        id='link'
+      
         className="hlsinput"
         type="text"
         placeholder="HLS Url..."
@@ -53,7 +50,8 @@ export default function VideoJS({
       />
       </div>
     <VİdeoPlayer url={hlsUrl}/>
-      <button onClick={onClick}>git</button>
+  
+    <Footer/>
     </>
   )
 }

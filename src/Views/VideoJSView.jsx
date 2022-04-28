@@ -1,7 +1,6 @@
 import React from 'react';
 import VideoJS from "../Components/VideoJS"
-import { Footer } from "./Footer";
-import { Logo } from '../Components/Logo';
+
 
 
 export class VideoJSView extends React.Component {
@@ -14,10 +13,10 @@ export class VideoJSView extends React.Component {
         return (
             <div className='videomaindiv'>
                
-                <Logo logoStyle="videologocustom" />
+                
                 <VideoJS />
                
-                <Footer />
+            
             </div>
         );
     }
