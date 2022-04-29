@@ -48,7 +48,7 @@ function MovieInfoPage({
 
     return (
         <div>
-            <Logo logoStyle="logocustommovieinfo"/>
+            <Logo logoStyle="logocustommovieinfo" logoImage="https://assets.dsmartgo.com.tr/content/img/dsmart-logo-footer.svg"/>
             <div ><img src={imagePath + selectedMovieContext.poster} className='movieinfoposter' /></div>
             <div className='movieinfoheader'><h4>{selectedMovieContext.title}</h4></div>
             <div className='movievideocustom'>

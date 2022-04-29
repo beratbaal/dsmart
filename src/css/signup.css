@@ -4,12 +4,7 @@
     background-size: contain;
     background: url("https://img.dsmartgo.com.tr/listimage/33/46/4681b3e9-119b-4763-bdc5-49afb18897ae_360.jpg");
 }
-.logosignup{
-    width: 90px;
-    height: 62px;
-    margin-left: 45%;
-    margin-top: 2%;
-}
+
 .signupform{
   
     opacity: 0.8;
@@ -153,5 +148,17 @@
     }
     .logosignup{
       margin-left: 40%;
+    }
+}
+@media (max-width:400px){
+    .signupinput{
+        margin-left: 28%;
+        margin-top: -5%;
+    }
+    .signupbutton{
+        margin-left: -12%;
+    }
+    .signupfooter{
+        margin-top: -8%;
     }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "../css/signup.css";
 import { Footer } from "./Footer";
 import { Button } from "../Components/Button";
+import { Logo } from "../Components/Logo";
 
 export class SignUp extends React.Component {
     constructor(props) {
@@ -11,7 +12,7 @@ export class SignUp extends React.Component {
         return (
             <div className="signupbody">
 
-                <img src="https://assets.dsmartgo.com.tr/content/img/dsmart-logo.svg" className="logosignup" />
+                <Logo logoStyle="logosignup" logoImage="https://assets.dsmartgo.com.tr/content/img/dsmart-logo.svg"/>
                 <div className="signupform">
                     <h3 className="signupheader">Üye Ol</h3>
                     <p className="signuptext">D-Smart Abonesi misiniz?</p>

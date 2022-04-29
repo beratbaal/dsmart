@@ -38,7 +38,7 @@ export default function VideoJS({
   return (
     
     <>
-    <Logo logoStyle="videologocustom" />
+    <Logo logoStyle="videologocustom" logoImage={"https://assets.dsmartgo.com.tr/content/img/dsmart-logo-footer.svg"} />
     <div>
       
       <input 

@@ -11,7 +11,12 @@
     height: 72px;
     width: 200px;
 }
-
+.logosignup{
+    width: 90px;
+    height: 62px;
+    margin-left: 45%;
+    margin-top: 2%;
+}
 
 @media (max-width:510px){
     .logocustommovieinfo{
