@@ -13,7 +13,7 @@ export const Logo =({
     const checkLogoImage = IMAGES.includes(logoImage) ? logoImage : IMAGES[0];
 
     return(
-       <Link to={"/"}><img src={`logo ${checkLogoImage}`} className={`logo ${checkLogoStyle}`} /></Link> 
+       <Link to={"/"}><img src={checkLogoImage} className={`logo ${checkLogoStyle}`} /></Link> 
     );
 }
    
