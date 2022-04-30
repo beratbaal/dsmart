@@ -6,6 +6,7 @@ import { HorizontalCard } from "./Views/HorizontalCard";
 import { Footer } from './Views/Footer';
 import { SignUp } from './Views/SignUp';
 import { SignIn } from './Views/SignIn';
+
 import MovieInfo from "./Components/MovieInfo";
 
 
@@ -85,7 +86,7 @@ function App() {
           <Route index path='/SignIn' element={<SignIn />} />
           <Route index path='/MovieInfoPage' element={<MovieInfo />} />
           <Route index path='/VideoJSView' element={<VideoJSView/>}/>
-        
+         
         </Routes>
       </SelectedMovieContextProvider>
     </BrowserRouter>

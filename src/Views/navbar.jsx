@@ -35,7 +35,7 @@ export class NavBar extends React.Component {
                             </form>     
                               
                         </div>
-                        <div ><img src={"https://assets.dsmartgo.com.tr/content/img/icnMastersearch.svg"} className="searchButton" /></div>
+                   <div ><img src={"https://assets.dsmartgo.com.tr/content/img/icnMastersearch.svg"} className="searchButton" /></div>   
                     </div>
                 </nav>
                 <div className="customList">
