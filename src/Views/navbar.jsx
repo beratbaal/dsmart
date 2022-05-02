@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/nvbr.css";
 import { Button } from "../Components/Button";
-
+import { Link } from "react-router-dom";
 
 
 export class NavBar extends React.Component {
@@ -35,7 +35,7 @@ export class NavBar extends React.Component {
                             </form>     
                               
                         </div>
-                   <div ><img src={"https://assets.dsmartgo.com.tr/content/img/icnMastersearch.svg"} className="searchButton" /></div>   
+                <Link to={"/MovieSearch"}><div ><img src={"https://assets.dsmartgo.com.tr/content/img/icnMastersearch.svg"} className="searchButton" /></div>   </Link>   
                     </div>
                 </nav>
                 <div className="customList">
