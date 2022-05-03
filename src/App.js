@@ -2,7 +2,6 @@ import './App.css';
 import { NavBar } from "./Views/navbar";
 import { Slider } from "./Views/slider";
 import { HorizontalCard } from "./Views/HorizontalCard";
-import MovieSearch from './Components/MovieSearch';
 import { Footer } from './Views/Footer';
 import { SignUp } from './Views/SignUp';
 import { SignIn } from './Views/SignIn';
@@ -86,7 +85,7 @@ function App() {
           <Route index path='/SignIn' element={<SignIn />} />
           <Route index path='/MovieInfoPage' element={<MovieInfo />} />
           <Route index path='/VideoJSView' element={<VideoJSView/>}/>
-          <Route index path='/MovieSearch' element={<MovieSearch/>}/>
+       
         </Routes>
       </SelectedMovieContextProvider>
     </BrowserRouter>
