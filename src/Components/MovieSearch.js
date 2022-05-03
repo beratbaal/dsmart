@@ -6,7 +6,7 @@ import { MovieSearchView } from '../Views/MovieSearchView';
 function MovieSearch({
 }) {
     
-    const [nowPlayingMovieList, setNowPlayingMovieList] = useState(["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",]);
+    const [nowPlayingMovieList, setNowPlayingMovieList] = useState(["",]);
   
     
   
@@ -24,11 +24,10 @@ function MovieSearch({
           console.log(movies)
         });
       }
-   
+    
     
     return (
         <div>
-          
            <MovieSearchView movies={nowPlayingMovieList} />
         </div>
       
